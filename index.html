@@ -1,0 +1,194 @@
+<!--!DOCTYPE html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f6f5f5;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(11, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25;
+  }
+  
+  
+  .one{
+    float: left;
+    font-size: 50px !important;
+    color: aqua;
+  }
+  .one a{
+    color: rgb(0, 94, 255);
+    font-size: 50px !important;
+  }
+  .two{
+    color: rgb(7, 7, 109);
+    font-size: 45px;
+  }
+p{
+    font-size: 35px;
+    color: rgb(5, 5, 73);
+}
+.three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding:10px 20px 35px 10px;
+}
+.three input{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(6, 27, 121);
+    font-size: 20px;
+    color: #f6f5f5;
+    
+}
+.web{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.page{
+    margin-bottom: 20px;
+}
+.we{
+    margin-bottom: 5px;
+}
+
+.box div  {
+    color: rgb(11 10 10);
+    outline-style: solid;
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    background-color: #1571cf;
+    margin-top: 2px;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 25px;
+
+}
+
+.box{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 81%;
+    margin: auto;
+    gap: 105px;
+
+}
+.box-1 p{
+    font-size:20px
+}
+.box-1 h2{
+    font-size: 30px;
+        font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fa-address-book{
+    padding: 40px;
+    font-size: 34px;
+
+}
+.lorem{
+    margin-top: 0px;
+
+}
+.fa-share{
+    padding: 40px;
+    font-size: 34px; 
+}
+.fa-bars{
+    padding: 40px;
+    font-size: 34px;
+}
+.fa-random{
+    padding: 40px;
+    font-size: 34 
+}
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-c {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+   </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="one"><a href="default.asp">Onepage</a></li>
+            <li ><input  style="background-color: aqua;" type="submit" value="Get Started" /></li>
+            <li><a href="about.asp">contact</a></li>
+            <li class="drop"><a href="about.asp">Dropdown</a>
+            <div class="drop-c"> hello</div>
+            </li>
+            <li><a href="about.asp">Pricing</a></li>
+            <li><a href="about.asp">team</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="news.asp">services</a></li>
+            <li><a href="news.asp">Home</a></li>
+         
+          </ul>
+    </div>
+<div class="two" align="center">
+    <h1 class="page">One page bootstrap.
+    </h1>
+    <h1 class="web">Website Template.</h1>
+</div>
+<p align="center" class="we">We are team of tatanted designer</p>
+<div class="three"><input   type="submit" value="Get Started" /></div>
+<div class="box">
+    <div class="box-1">
+        <i class="fa fa-address-book" aria-hidden="true"></i>
+        <h2>Lorem, ipsum dolor.</h2>
+       <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.</p>
+    </div>
+    <div class="box-1">
+        <i class="fa fa-share" aria-hidden="true"></i>
+        <h2>Lorem, ipsum dolor.</h2>
+       <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.</p>
+    </div>
+    <div class="box-1">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <h2>Lorem, ipsum dolor.</h2>
+       <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.</p>
+    </div>
+    <div class="box-1">
+        <i class="fa fa-random" aria-hidden="true"></i>
+        <h2>Lorem, ipsum dolor.</h2>
+       <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, perspiciatis.</p>
+    </div>
+  
+</div>
+</body>
+</html>
